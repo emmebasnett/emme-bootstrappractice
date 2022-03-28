@@ -22,6 +22,10 @@
 
 // Import partials:
 
+.navbar-nav a:hover {
+  text-decoration: underline;
+    }
+
 // Custom styles:
 #header {
   background-color: #ffffff;
@@ -29,11 +33,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-.navbar 
-a:hover {
-text-decoration: underline;
-  }
 
   .active {
     font-weight: bold;
@@ -96,4 +95,18 @@ p {
     opacity: 1;
     transform: none;
   }
+}
+
+.article {
+  .byline{
+    font-weight: bold;
+  span{
+    font-style: italic;
+    font-weight: normal;
+   }
+  }
+p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+ }
 }
